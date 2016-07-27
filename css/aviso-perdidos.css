@@ -1,0 +1,17 @@
+.title-aviso-perdidos {
+
+  background-color: #153535;
+  margin-top: 25px;
+  -webkit-box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+  -moz-box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+  box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+}
+
+.title-aviso-perdidos p {
+
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}

@@ -1,0 +1,45 @@
+.title-mensajes {
+
+  background-color: #153535;
+  margin-top: 25px;
+  -webkit-box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+  -moz-box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+  box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+}
+
+.title-mensajes p {
+
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.menu-msg table caption {
+
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+  background: #65737e;
+}
+
+.menu-msg table thead {
+
+  background-color: #e7eff6;
+  color: #4f5b66;
+
+}
+
+.menu-msg table thead th {
+
+  text-align: center;
+}
+
+.envia-mensaje {
+
+  color: #000;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: 18px;
+}

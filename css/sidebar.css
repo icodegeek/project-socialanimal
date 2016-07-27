@@ -1,0 +1,54 @@
+aside h5 {
+
+  background-color: #153535;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 25px;
+  border-top-right-radius:  5px;
+  border-top-left-radius: 5px;
+}
+
+aside p {
+
+  background-color: #799198;
+  color: #fff;
+  padding: 12px;
+  text-align: center;
+  margin-top: -9px;
+}
+
+aside ul {
+
+  list-style: none;
+  margin-left: -40px;
+  margin-top: -10px;
+
+}
+
+aside ul li {
+
+  padding-top: 1px;
+
+}
+
+aside ul li a {
+
+  display: block;
+  background-color: #c6d3d7;
+  padding: 8px 0 10px 10px;
+  font-weight: 400;
+
+}
+
+aside ul li a:hover {
+
+  text-decoration: none;
+
+}
+
+.sidebar {
+
+  margin-left: -15px;
+}

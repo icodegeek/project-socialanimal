@@ -30,8 +30,14 @@ CREATE TABLE tb_aviso (
   usuario_id      INT,
   tipo_aviso      ENUM('perdido', 'encontrado') NOT NULL,
   tipo_animal     ENUM('perro', 'gato') NOT NULL,
+  nombre_animal   VARCHAR(255),
+  raza            VARCHAR(255) NOT NULL,
+  color_pelo      VARCHAR(255) NOT NULL,
+  edad            ENUM('cachorro', 'joven', 'adulto') NOT NULL,
+  sexo            ENUM('macho', 'hembra') NOT NULL,
   provincia       VARCHAR(255) NOT NULL,
   localidad       VARCHAR(255) NOT NULL,
+  calle           VARCHAR(255) NOT NULL,
   fecha           DATE NOT NULL,
   sugerencia      VARCHAR(255),
   imagen          LONGBLOB,
@@ -41,26 +47,6 @@ CREATE TABLE tb_aviso (
     ON UPDATE CASCADE
     ON DELETE SET NULL
 
-)DEFAULT CHARACTER SET UTF8 ENGINE=InnoDB;
-
-CREATE TABLE tb_animal (
-
-  id              INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  usuario_id      INT,
-  aviso_id        INT,
-  nombre          VARCHAR(255),
-  raza            VARCHAR(255) NOT NULL,
-  color_pelo      VARCHAR(255) NOT NULL,
-  edad            ENUM('cachorro', 'joven', 'adulto'),
-  sexo            ENUM('macho', 'hembra'),
-
-  FOREIGN KEY (usuario_id) REFERENCES tb_usuario(id)
-    ON UPDATE CASCADE
-    ON DELETE SET NULL,
-
-  FOREIGN KEY (aviso_id) REFERENCES tb_aviso(id)
-    ON UPDATE CASCADE
-    ON DELETE SET NULL
 )DEFAULT CHARACTER SET UTF8 ENGINE=InnoDB;
 
 CREATE TABLE tb_comentarios (
@@ -88,7 +74,6 @@ CREATE TABLE tb_mensajes (
   usuario_destinatario_id     INT,
   asunto                      VARCHAR(255) NOT NULL,
   texto                       TEXT NOT NULL,
-  leido                       BOOLEAN,
   creado                      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
 
   FOREIGN KEY (usuario_remitente_id) REFERENCES tb_usuario(id)

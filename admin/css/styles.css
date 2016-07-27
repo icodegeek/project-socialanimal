@@ -1,0 +1,53 @@
+@import url('usuario.css');
+
+
+header img#logo-admin {
+
+  width: 105%;
+  height: 105%;
+}
+
+header #fondo-header {
+
+  background: #35a79c;
+  border-bottom: 3px solid #000;
+}
+
+header #titulo p {
+
+  font-size: 65px;
+  margin-top: 32px;
+  color: #333333;
+  border-bottom: 1px solid #000;
+}
+
+header nav ul {
+
+  background: #003333;
+  padding: 10px 0;
+}
+
+header nav ul{
+
+  list-style: none;
+
+}
+
+header nav ul li {
+
+  display: inline;
+}
+
+header nav ul li a {
+
+  color: #f0f0f0;
+  padding: 35px;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+
+  color: #fff;
+  text-decoration: none;
+
+}

@@ -1,0 +1,63 @@
+.title-home-avisos {
+
+  background-color: #153535;
+  margin-top: 25px;
+  -webkit-box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+  -moz-box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+  box-shadow: 6px 7px 5px -5px rgba(201,201,201,1);
+
+}
+
+.title-home-avisos p {
+
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.fila-avisos {
+
+  margin-top: 18px;
+
+}
+
+.fila-avisos h4{
+
+  color: #fff;
+  background-color: #000;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 3px;
+  font-weight: 400;
+
+}
+
+.link-detalles {
+
+  color: #153535;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.link-detalles:hover{
+
+  text-decoration: none;
+  color: #000;
+}
+
+.msg {
+
+  text-align: center;
+  font-size: 18px;
+  margin-top: 26px;
+
+}
+
+.links-actions {
+
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}

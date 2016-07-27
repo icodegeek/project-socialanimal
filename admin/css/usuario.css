@@ -1,0 +1,27 @@
+#title {
+
+  text-align: center;
+}
+
+.form-create-user {
+
+  margin-top: 35px;
+}
+
+.btn-create-user {
+
+  margin-top: 15px;
+  margin-left: 802px;
+  margin-bottom: 50px;
+}
+
+.btn-mod-user {
+
+  margin: 15px 0;
+
+}
+
+.btn-del-user {
+
+  margin-bottom: 30px;
+}
